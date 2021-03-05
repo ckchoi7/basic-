@@ -1,0 +1,30 @@
+1. Gitbash 설치 
+http://gitforwindows.org/ 
+
+가서 download 버튼 클릭 -> 설치 
+(web 상의 github와 연결하기 위해 local computer 에 설치되는 chin clinet program 
+
+2. https://github.com/ 
+signup (회원가입) 후 login 
+
+3. new repository 생성 
+
+4. Root Folder 연걸 
+-> Web 상의 Git 와 연결될 Local Folder 
+   1. local forder 생성 
+   2. 오른쪽 마우스버튼 클릭 git bash here 클릭 
+   3. 명령창에  
+        - git init 
+        - git remote add origin [repository address] 
+  
+   명령어로  Root Folder 와 github repository 연결
+
+5. push 와 pull 
+
+* Push 전엔 Pull 이있다. 
+
+        - git pull origin master / git repository 의 모든자료를 local folder 로 끌고 오는 명령어 
+        - git status / 현재 내 local 폴더와 git repository 와의 싱크 상태를 check 해주는 명령어 
+        - git add . /  local folder 와 git repository 사이에 변경이 있을 때 그것을 tracking 해댤라는 명령어 
+        - git commit - m "message" / 변경사항 등 upload 시 본인 혹은 함께 하는 팀원에게 변경사항을 recommand 하는 명령어 
+        - git push origin +master / git repository 에 Push를 요청하는 명령어 
