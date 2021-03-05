@@ -1,4 +1,4 @@
-1. Gitbash 설치 
+﻿1. Gitbash 설치 
 http://gitforwindows.org/ 
 
 가서 download 버튼 클릭 -> 설치 
@@ -32,7 +32,7 @@ signup (회원가입) 후 login
         - git status / 현재 내 local 폴더와 git repository 와의 싱크 상태를 check 해주는 명령어 
         - git add . /  local folder 와 git repository 사이에 변경이 있을 때 그것을 tracking 해퓌遮 명령어 
         - git commit - m "message" / 변경사항 등 upload 시 본인 혹은 함께 하는 팀원에게 변경사항을 recommand 하는 명령어 
-        - git push origin +master / git repository 에 Push를 요청하는 명령어 
+        - git push origin master / git repository 에 Push를 요청하는 명령어 
 
 6. git chin clint software 초기 설정(사용자 이름 및 E-mail 등록]
    
