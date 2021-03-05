@@ -25,6 +25,7 @@ signup (회원가입) 후 login
         - git remote add origin [repository address]  
 
 5. push 와 pull 
+** 반드시 Push 전 Pull 할것 
 
 * Push 전엔 Pull 이있다. 
 
