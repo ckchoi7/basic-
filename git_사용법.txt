@@ -18,6 +18,11 @@ signup (회원가입) 후 login
         - git remote add origin [repository address] 
   
    명령어로  Root Folder 와 github repository 연결
+   만일 fatal : remote origin already exist. 라는 error 메시지가 뜨면 
+        - git remote rm origin [repository address] 
+        한후 
+   다시 
+         - git remote add origin [repository address]  
 
 5. push 와 pull 
 
@@ -28,3 +33,23 @@ signup (회원가입) 후 login
         - git add . /  local folder 와 git repository 사이에 변경이 있을 때 그것을 tracking 해댤라는 명령어 
         - git commit - m "message" / 변경사항 등 upload 시 본인 혹은 함께 하는 팀원에게 변경사항을 recommand 하는 명령어 
         - git push origin +master / git repository 에 Push를 요청하는 명령어 
+
+6. git chin clint software 초기 설정(사용자 이름 및 E-mail 등록]
+   
+    
+   git config --global user.name ["username"]
+   git config --global user.email ["aaa@aaa.com"]
+   -> 내 repository 에 올린다.고 설정한다. 
+   -> 한번 설정된 후에는 확인 하지 않기에, 공용 PC를 통해 git 사용하면서 commit 하면  
+      잘못하면 다른사람의 계정과 E-mail로 code 가 등록될 수 있다.   
+
+   git config --local user.name ["username"]
+   git config --local user.email ["aaa@aaa.com"]
+   -> 따라서 공용 PC 나 혹 다른 사용자 PC를 사용하여 
+      이미 설치된 git client program을 사용할 때는 반드시 위처럼 
+      local user 로 등록을 해주고 Commit 하기 바란다. 
+      그래야.. 내 repository 에 code가 등록된다. 
+
+   - git config user.name  
+   - git config user.email 
+   상기 2개의 명령어를 사용하면, 현재 사용되는 email 과 이름을 확인 할 수 있습니다. 
