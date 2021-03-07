@@ -58,7 +58,7 @@ signup (회원가입) 후 login
    상기 2개의 명령어를 사용하면, 현재 사용되는 email 과 이름을 확인 할 수 있습니다. 
 
 
-7. git hub에서 download 받는법
+7. git hub에서 download 받는법 ** Push 전에 Pull 이 있다는거 아시죠 ** 
 
    1. 저장할 새폴더를 local에 만든다. 
    2. 만든 새폴더를 선택후 마우스 오늘쪽 버튼 클릭 git bash here 클릭 -> bash shell open 
@@ -66,7 +66,23 @@ signup (회원가입) 후 login
    4. git remote add origin [복사해 올 URL 주소] 넣은후 크릭    
    5. git pull origin master 엔터 -> 복사해올 URL에 있는 코드가 해당 새폴더로 download 됩니다.  
 
-8. 팀원 초대 
+8. Push 할때 참고 
+   1. git init 
+   2. git status
+   3. git add . / 트래킹 시장  
+   4. git commint - m "[수정내용]"
+   5. git push origin master 
+   6. 참고. 이때 Access token 을 요구합니다. 
+      ** Access 토근 생성 방법 
+      git hub 에 login 
+      Use Setting 매뉴로 간다. 
+      User Setting 메뉴 맨 아래 developer setting 클릭 
+      developer setting 메뉴에 token 생성 메뉴 클릭 
+      생성된 token 복사 하여 최초 접근시 token 요청할때 거기에 붙여 넣는다. 
+      
+      
+
+9. 팀원 초대 
    1. 팀장이 만들어 놓은 특정 레퍼지토리를 선택 -> 오른쪽 Setting 메뉴 Click -> Mamber access 메뉴 선택 
    2. 그곳에 초대하고 싶은 member 의 git hub ID 입력 후 초대 
    3. 그럼 팀원이 최초 git hub 등록해 놓은 메일로 초대메일이 송부됨 
