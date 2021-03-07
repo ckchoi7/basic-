@@ -17,6 +17,7 @@ signup (회원가입) 후 login
    3. 명령창에  
         - git init 
         - git remote add origin [repository URL address] 
+          또는 git add [repository URL address] 
   
    명령어로  Root Folder 와 github repository 연결
    만일 fatal : remote origin already exist. 라는 error 메시지가 뜬다는 것은 이미 연결이 되어 있다는 뜻  -> 따라서 개이치 않아도 됩니다. 
