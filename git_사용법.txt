@@ -64,5 +64,10 @@ signup (회원가입) 후 login
    3. git init 
    4. git remote add origin [복사해 올 URL 주소] 넣은후 크릭    
    5. git pull origin master 엔터 -> 복사해올 URL에 있는 코드가 해당 새폴더로 download 됩니다.  
-   
+
+8. 팀원 초대 
+   1. 팀장이 만들어 놓은 특정 레퍼지토리를 선택 -> 오른쪽 Setting 메뉴 Click -> Mamber access 메뉴 선택 
+   2. 그곳에 초대하고 싶은 member 의 git hub ID 입력 후 초대 
+   3. 그럼 팀원이 최초 git hub 등록해 놓은 메일로 초대메일이 송부됨 
+   4. 팀원은 메일 확인 후 git hub에 login 하여 초대에 응하면, 팀장이 만들어 놓은 레퍼지도리를 공유하여 사용할 수 있다.  
 
