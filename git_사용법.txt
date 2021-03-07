@@ -1,5 +1,6 @@
 ﻿1. Gitbash 설치 
 http://gitforwindows.org/ 
+https://git-scm.com/downloads
 
 가서 download 버튼 클릭 -> 설치 
 (web 상의 github와 연결하기 위해 local computer 에 설치되는 chin clinet program 
