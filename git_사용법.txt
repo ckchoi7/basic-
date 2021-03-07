@@ -77,8 +77,8 @@ signup (회원가입) 후 login
       git hub 에 login 
       Use Setting 매뉴로 간다. 
       User Setting 메뉴 맨 아래 developer setting 클릭 
-      developer setting 메뉴에 token 생성 메뉴 클릭 
-      생성된 token 복사 하여 최초 접근시 token 요청할때 거기에 붙여 넣는다. 
+      developer setting 메뉴에 personal access token 생성 메뉴 클릭 
+      생성된 token 복사 하여 최초 접근시 personal access token 요청할때 거기에 붙여 넣고 log in  
       
       
 
